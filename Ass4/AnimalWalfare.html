@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Animal Welfare</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://unpkg.com/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="JAVA.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">    
+</head>
+
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg  bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="D:\Web T\Ass4\Charity.html"><img src="D:\Web T\Ass4\изображение_2023-06-24_033634914-removebg-preview.png" alt="Charity Navigator Logo" width="50"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="D:\Web T\Ass4\Charity.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#whereToGive">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacts">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="search-form d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search by Charity or Cause" aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="animalmain">
+        <section class="animal-welfare-section">
+            <h2>Donate to Support Animal Welfare</h2>
+            <p>Welcome to Animal Welfare! Our mission is to protect and care for animals, ensuring their well-being and rights. We strive to make impactful giving easier for all, empowering individuals to contribute to the welfare of animals in need. Through our dedicated efforts, we rescue and provide shelter for abandoned and abused animals, offering them a second chance at life. We also raise awareness about responsible pet ownership and advocate for stronger animal protection laws. With your support, we can create a world where animals are treated with compassion and kindness. Join us in making a difference and together, let's create a brighter future for our furry friends.</p>
+        </section>
+
+
+
+        <section class="animal-welfare-section">
+    <h2>Animal Welfare</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img  src="https://www.aspca.org/sites/default/files/keeping-animals-in-homes_pet-statistics_main-image.jpg" class="card-img-top img-fluid" alt="Animal 1">
+                <div class="card-body">
+                    <h5 class="card-title">The Humane League</h5>
+                    <p class="card-text">Rockville, MD.</p>
+                    <button class="btn btn-primary" onclick="playSound()">Donate</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img  src="https://www.americanhumane.org/app/uploads/2018/04/shelter-cats.jpg" class="card-img-top img-fluid" alt="Animal 2" >
+                <div class="card-body">
+                    <h5 class="card-title">Good Food Institute Inc.</h5>
+                    <p class="card-text">Arlington, VA</p>
+                    <button class="btn btn-primary" onclick="playSound()">Donate</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img  src="https://cdn.houstonpublicmedia.org/wp-content/uploads/2019/06/25143552/Dogs.jpg" class="card-img-top img-fluid" alt="Animal 3" >
+                <div class="card-body">
+                    <h5 class="card-title">Hoof or Paw</h5>
+                    <p class="card-text">Guin, AL</p>
+                    <button class="btn btn-primary" onclick="playSound()">Donate</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style> .card-img-top {
+        height: 200px; /* Adjust the height as desired */
+        object-fit: cover;
+    }</style>
+
+    <footer>
+    <div id="contacts" class="contacts">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="D:\Web T\Ass4\изображение_2023-06-24_033634914-removebg-preview.png" alt="Charity Navigator Logo" width="150">
+                
+            </div>
+            <div class="col-md-4">
+                <h5>Charity Information</h5>
+                <ul>
+                    <li>Four-Star Charity</li>
+                    <li>bbb</li>
+                    <li>Candid Guidestar Platinum Seal</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="#">Press Room</a></li>
+                    <li><a href="#">Financials and Policies</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">FAQs/Contact Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="text-center">
+        <p>&copy; 2023 My Website. All rights reserved.</p>
+    </div>
+
+    </div>
+    </footer>
+
+    <audio id="sound" src="C:\Users\ching\Downloads\super-mario-coin-sound.mp3"></audio>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-buURZXfj5lbNLfG9jyU3uK0UO3N+yLg2ZbKukmfgY19czV9wEDdHjlBjfaPWYdd8" crossorigin="anonymous"></script>
+    
+</body>
+</html>

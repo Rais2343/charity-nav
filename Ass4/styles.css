@@ -1,0 +1,128 @@
+
+.carousel-inner{
+	padding-top: 55px;
+}
+.carousel-item img {
+            max-height: 400px;
+            object-fit: cover;
+        }
+
+footer{
+    height: 150px;
+    padding-top: 50px;
+
+}
+.contacts{
+    background-color:RGB(0,25,54);
+    color:white;
+}
+body {
+            background-color: #f5f5f5;
+        }
+.animal-welfare-section {
+	padding-top: 60px;
+    padding: 50px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.animal-welfare-section h2 {
+            color: #333333;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+.animal-welfare-section p {
+            color: #666666;
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+    }
+}
+#Donate {
+            position: relative;
+            left: -500px;
+        }
+.animalmain{
+    padding-top: 60px;
+}
+.navbar-collapse {
+            justify-content: flex-end;
+        }
+
+        .navbar-nav {
+            margin-left: auto;
+        }
+
+        .search-form {
+            width: 400px; 
+            margin-left: auto;
+            margin-right: auto;
+        }
+                .navbar-nav .nav-item {
+            margin-right: 10px; 
+        }
+.card-text {
+            color: #999999; /* Light gray text color */
+        }
+.donorBasics, .whereToGive ,.about{
+    padding-top: 20px;
+}
+.donorBasics h2 , .whereToGive h2{
+    text-align: center;
+    color: rgb(13,110,253);
+            font-size: 28px;
+            margin-bottom: 20px;
+}
+.about{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.about h2{
+    padding-top:10px;
+    text-align: center;
+color: rgb(13,110,253);
+            font-size: 28px;
+}
+.about p {
+    font-size: 16px;
+    line-height: 1.6;
+color: #999999;
+}
+.card-body{
+
+}
+.card-image {
+
+}
+
+        .animalmain{
+            padding-top:60px;
+            height:;
+        }
+.whereToGiveHead{
+    margin-left: auto;
+    margin-right: auto;
+padding-left: 150px;
+padding-right: 150px;
+width: 600px;
+}
+.whereToGive{
+    text-align: ;
+}
+.giving101 {
+padding-top: 100px;
+padding-right: 50px;
+padding-left: 50px;
+}
+.giving101card h2 {
+    padding-top: 20px;
+    text-align: center;
+
+}
+.donortoolcard{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
